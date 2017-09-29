@@ -1,12 +1,28 @@
 	
 	
 	body{
-		background-color: gray;
+		background-color: #C94A4A;
+		background-repeat:no-repeat;
+		background-size:cover;
+		padding-bottom: none;
+		border-bottom: none;
 	}
-	h1{	
-		background-color: red;
-		
+
+	
+	.whole {
+
+		left: 40px;
+		top: 80px;
+		padding-top: 100px;
+		padding-left: 200px;
+		text-align: center;
+		position: absolute;
+		font: 40px Courier New, Courier, monospace;
 	}
+	
+	
+
+	
 	
 		
 		

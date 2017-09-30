@@ -20,8 +20,29 @@
 		font: 40px Courier New, Courier, monospace;
 	}
 	
-	
+	.navBar{
+		
+	}
+		
+	#nav{
+		float:right;
+		list-style: none;
 
+	}
+	#nav li{
+		display: inline;
+		padding-left: 10px;
+	
+	}
+	
+	#nav a {
+		text-decoration:none;
+	}
+	
+	#nav li a:hover{
+		color:white;
+	}
+	
 	
 	
 		

@@ -3,11 +3,11 @@
 	body{
 		background-color: #C94A4A;
 		background-repeat:no-repeat;
-		background-size:100%;
+		background-size: cover;
+		background-attachment: fixed;
 		padding-bottom: none;
 		border-bottom: none;
 	}
-
 	
 	.whole {
 
@@ -23,6 +23,7 @@
 	.container{
 	width: 600px;
 	float:right;
+	
 	}
 	
 	
@@ -32,7 +33,7 @@
   margin: 0;
   padding: 0;
   border: 0;
-  list-style: none;
+  list-style: ne-resize;
   line-height: 1;
   display: block;
   position: relative;

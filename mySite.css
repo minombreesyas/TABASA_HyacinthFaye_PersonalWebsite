@@ -402,3 +402,8 @@
 	a:hover {
 	    opacity: .5;
 	}
+
+	.about.p{
+
+		color: pink;
+	}

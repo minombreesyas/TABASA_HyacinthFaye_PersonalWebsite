@@ -124,6 +124,7 @@
 	    padding-top: 50px;
 	    font-size: 30px;
 	    text-align: left;
+	    clear: both;
 	}
 
 	.photos img {
@@ -132,7 +133,7 @@
 	}
 
 	.photos img:nth-of-type(1) {
-	    margin-top: 450px;
+	    margin-top: 900px;
 	    height: 300px;
 	    width: 150px;
 	    left: 50px;
@@ -149,8 +150,8 @@
 	}
 
 	.photos img:nth-of-type(2) {
-	    margin-top: 300px;
-	    left: 150px;
+	    margin-top: 1000px;
+	    left: 850px;
 	    top: 100px;
 	}
 
@@ -164,7 +165,7 @@
 	}
 
 	.photos img:nth-of-type(3) {
-	    margin-top: 400px;
+	   margin-top: 900px;
 	    left: 250px;
 	    top: 50px;
 	}
@@ -179,7 +180,7 @@
 	}
 
 	.photos img:nth-of-type(4) {
-	    margin-top: 300px;
+	   margin-top: 900px;
 	    left: 350px;
 	    top: 150px;
 	}
@@ -194,7 +195,7 @@
 	}
 
 	.photos img:nth-of-type(10) {
-	    margin-top: 300px;
+	    margin-top: 900px;
 	    left: 450px;
 	    top: 50px;
 	}
@@ -210,7 +211,7 @@
 	}
 
 	.photos img:nth-of-type(6) {
-	    margin-top: 450px;
+	    margin-top: 900px;
 	    height: 300px;
 	    width: 150px;
 	    right: 50px;
@@ -227,7 +228,7 @@
 	}
 
 	.photos img:nth-of-type(7) {
-	    margin-top: 300px;
+	   margin-top: 900px;
 	    right: 150px;
 	    top: 100px;
 	}
@@ -242,7 +243,7 @@
 	}
 
 	.photos img:nth-of-type(8) {
-	    margin-top: 400px;
+	    margin-top: 900px;
 	    right: 150px;
 	    top: 50px;
 	}
@@ -250,7 +251,7 @@
 
 	.photos img:nth-of-type(8) {
 	    right: 250px;
-	    top:70px;
+	    top: 70px;
 	    -webkit-transform: rotate(7deg);
 	    -moz-transform: rotate(7deg);
 	    -o-transform: rotate(7deg);
@@ -258,7 +259,7 @@
 	}
 
 	.photos img:nth-of-type(9) {
-	    margin-top: 300px;
+	   margin-top: 900px;
 	    right: 350px;
 	    top: 150px;
 	}
@@ -276,7 +277,7 @@
 
 
 	.photos img:nth-of-type(5) {
-	    margin-top: 300px;
+	    margin-top: 900px;
 	    right: 450px;
 	    top: 50px;
 	}
@@ -290,34 +291,12 @@
 	    transform: rotate(2deg);
 	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
 	.photos img:hover {
-	    -webkit-transform: scale(1.5);
-	    -moz-transform: scale(1.5);
-	    -o-transform: scale(1.5);
-	    transform: scale(1.5);
-	    z-index: 10;
-	}
-
-	.photos img:hover {
-	    -webkit-transform: rotate(380deg) scale(1.5);
-	    -moz-transform: rotate(380deg) scale(1.5);
-	    -o-transform: rotate(380deg) scale(1.5);
-	    transform: rotate(380deg) scale(1.5);
-	    z-index: 10;
+	    -webkit-transform: scale(3);
+	    -moz-transform: scale(3);
+	    -o-transform: scale(3);
+	    transform: scale(3);
+	    z-index: 20;
 	}
 
 	.photos img {

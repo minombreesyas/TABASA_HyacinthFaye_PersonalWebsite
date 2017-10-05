@@ -381,13 +381,14 @@
 
 	a:hover {
 	    opacity: .5;
+
 	}
 
 
 	#cssmenu1 ul,
 	#cssmenu1 ul li,
 	#cssmenu1 ul li a {
-	   
+	    width: 50;
+	    height: 50;
 	    list-style: none;
-	    
 	}

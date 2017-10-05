@@ -377,4 +377,25 @@
     background: black;
     border: solid 2px pink;
 }
+.container1{
+
+	    width: 560px;
+	    margin: 150px;
+	    padding: 50px;
+	    border: 0;
+	    position: absolute;
+}
+
+#cssmenu1 ul,
+#cssmenu1 ul li,
+#cssmenu1 ul li a {
+	    margin: 0;
+	    padding: 0;
+	    border: 0;
+	    list-style: none;
+	    line-height: 2;
+	    <!display: b;
+	    position: relative;
+	    <!box-sizing: border-box;
+	}
 

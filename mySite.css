@@ -377,6 +377,7 @@
     background: black;
     border: solid 2px pink;
 }
+
 .container1{
 
 	    width: 560px;
@@ -399,3 +400,6 @@
 	    <!box-sizing: border-box;
 	}
 
+	a:hover{
+	 opacity: .5;
+	}

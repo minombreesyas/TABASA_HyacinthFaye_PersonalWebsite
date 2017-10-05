@@ -1,10 +1,13 @@
 	body {
+		height: 100%
+		width:100%;
 	    background-color: #C94A4A;
 	    background-repeat: no-repeat;
 	    background-size: cover;
 	    background-attachment: fixed;
 	    padding-bottom: none;
 	    border-bottom: none;
+
 	}
 
 	.container {
@@ -119,9 +122,9 @@
 	}
 
 	.about {
+	position: absolute;
     padding-top: 50px;
     font-size: 30px;
-    text-align: left;
     clear: both;
 }
 
@@ -289,6 +292,67 @@
     transform: rotate(2deg);
 }
 
+.photos img:nth-of-type(11) {
+	float: right;
+    margin-top: 350px;
+    right: 550px;
+    top: 30px;
+}
+
+.photos img:nth-of-type(11) {
+	float: right;
+    right: 500px;
+    top: 60px;
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+
+.photos img:nth-of-type(12) {
+    margin-top: 350px;
+    right: 450px;
+    top: 50px;
+}
+
+.photos img:nth-of-type(12) {
+    right: 450px;
+    top: 50px;
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+.photos img:nth-of-type(13) {
+    margin-top: 270px;
+    right: 450px;
+    top: 50px;
+}
+
+.photos img:nth-of-type(13) {
+    right: 600px;
+    top: 50px;
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+
+.photos img:nth-of-type(14) {
+    margin-top: 270px;
+    right: 250px;
+    top: 50px;
+}
+
+.photos img:nth-of-type(14) {
+    right: 470px;
+    top: 50px;
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+
 .photos img:hover {
     -webkit-transform: scale(3);
     -moz-transform: scale(3);
@@ -313,3 +377,4 @@
     background: black;
     border: solid 2px pink;
 }
+
